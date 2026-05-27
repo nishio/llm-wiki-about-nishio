@@ -21,3 +21,14 @@
 
 - `wiki/syntheses/nishio観察パターン.md` — 7つの横断パターン（固定軸+射程拡大 / ブリッジ言語 / これは何？の主語ずれ / NEXT本並走 / 停滞TODO可視化 / AI生成レイヤー混在 / 外部公開bioのメンテ放置）
 - `wiki/meta/proposed-next-pages.md` — 曖昧な停滞、ConnectingDots、年/10年スケール俯瞰の3案を実行待ち
+
+## [2026-05-27] init | git init + GitHub push
+
+- https://github.com/nishio/llm-wiki-about-nishio として公開
+
+## [2026-05-27] ingest | サイボウズ + AI/LLM/機械学習 + word2vec
+
+- `sources/サイボウズ-search.md` — サイボウズ42 + Cybozu 8 = 50件。Cybozu vs サイボウズ の表記使い分けを観察
+- `sources/AI-LLM-機械学習.md` — 3語(536/98/17件)が同心円的に異なる射程で使い分けられていることを実証。`AIではなく機械学習.md` のメタページが本人の用語感覚を直接示す
+- `sources/word2vec-自然言語処理.md` — 2014年著書周辺、word2vec×KJ法 がブロードリスニングへの長い系譜の起点
+- `index.md` を更新

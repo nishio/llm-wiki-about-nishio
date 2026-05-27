@@ -16,6 +16,9 @@ title: nishio LLM Wiki
 
 - [自己紹介-bios.md](sources/自己紹介-bios.md) — `自己紹介.md` に時系列で積層された短いbioの分析、関心の変遷
 - [知的生産-search.md](sources/知的生産-search.md) — ファイル名一致115件のクラスタリングと俯瞰
+- [サイボウズ-search.md](sources/サイボウズ-search.md) — サイボウズ42 + Cybozu 8 = 50件。雇用主かつ共通基盤
+- [AI-LLM-機械学習.md](sources/AI-LLM-機械学習.md) — 3語(536/98/17件)の使い分けが意識的であることの実証
+- [word2vec-自然言語処理.md](sources/word2vec-自然言語処理.md) — 2014年著書周辺の小クラスタ、機械学習層の典型
 
 ## 統合解説 / 入り口（syntheses/）
 
