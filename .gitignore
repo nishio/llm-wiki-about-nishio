@@ -1,0 +1,9 @@
+# Large source corpus (regeneratable via `git clone https://github.com/nishio/external_brain_in_markdown raw/external_brain_in_markdown`)
+raw/external_brain_in_markdown/
+
+# Local agent settings
+.claude/
+
+# OS / editor
+.DS_Store
+*.swp
