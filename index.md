@@ -19,11 +19,16 @@ title: nishio LLM Wiki
 - [サイボウズ-search.md](sources/サイボウズ-search.md) — サイボウズ42 + Cybozu 8 = 50件。雇用主かつ共通基盤
 - [AI-LLM-機械学習.md](sources/AI-LLM-機械学習.md) — 3語(536/98/17件)の使い分けが意識的であることの実証
 - [word2vec-自然言語処理.md](sources/word2vec-自然言語処理.md) — 2014年著書周辺の小クラスタ、機械学習層の典型
+- [コーディングを支える技術-search.md](sources/コーディングを支える技術-search.md) — 2013年著書、メタ情報7件、関心軸の重心移動の証拠
+- [未踏-search.md](sources/未踏-search.md) — 77件、2002〜2025の23年スパン
+- [Scrapbox-search.md](sources/Scrapbox-search.md) — 310件、基盤かつ研究対象の二重位置
+- [KJ法-search.md](sources/KJ法-search.md) — 89件、60年スパンの方法論的核
 
 ## 統合解説 / 入り口（syntheses/）
 
 - [これは何？](wiki/syntheses/これは何？.md) — 入り口
 - [nishio観察パターン](wiki/syntheses/nishio観察パターン.md) — 一次ソース横断で繰り返し現れる7パターン
+- [年・10年スケール俯瞰](wiki/syntheses/年・10年スケール俯瞰.md) — 継続軸 / 時代区分 / 同じ問いの再実装パターン
 
 ## 関心テーマ（topics/）
 
@@ -37,7 +42,8 @@ title: nishio LLM Wiki
 
 ## 概念（concepts/）
 
-（順次追加）
+- [曖昧な停滞](wiki/concepts/曖昧な停滞.md) — 同型4スケール、Wikiが解消手段
+- [ConnectingDots](wiki/concepts/ConnectingDots.md) — Dot粒度を保留中、Wikiが粒度設計の前段
 
 ## メタ（meta/）
 

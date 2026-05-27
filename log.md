@@ -32,3 +32,16 @@
 - `sources/AI-LLM-機械学習.md` — 3語(536/98/17件)が同心円的に異なる射程で使い分けられていることを実証。`AIではなく機械学習.md` のメタページが本人の用語感覚を直接示す
 - `sources/word2vec-自然言語処理.md` — 2014年著書周辺、word2vec×KJ法 がブロードリスニングへの長い系譜の起点
 - `index.md` を更新
+
+## [2026-05-27] ingest | コーディングを支える技術 + 未踏 + Scrapbox + KJ法
+
+- `sources/コーディングを支える技術-search.md` — 7件のみ、エンジニアの知的生産術周辺50件と比して薄い→重心移動の数値証拠
+- `sources/未踏-search.md` — 77件、2002〜2025の23年スパン、未踏ジュニア継続中、「未踏性」の理論化系
+- `sources/Scrapbox-search.md` — 310件、基盤×研究対象の二重位置、派生ツール(AutoTrans/Connector/GPT)並走停滞
+- `sources/KJ法-search.md` — 89件、60年スパンの方法論的核(物理→word2vec→Scrapbox→Kozaneba→AIでKJ法→ConnectingDots)
+
+## [2026-05-27] filing-back | 概念2件 + 年/10年俯瞰
+
+- `wiki/concepts/曖昧な停滞.md` — 出典 `行き詰まった協働と曖昧な停滞.md`、4スケール同型、Wiki内停滞事例も収録
+- `wiki/concepts/ConnectingDots.md` — Dot粒度保留、KJ法系譜の最新位置
+- `wiki/syntheses/年・10年スケール俯瞰.md` — 継続軸4本(知的生産レトリック/サイボウズ18年/未踏23年/KJ法系譜60年) + 10年区分3期 + 同じ問いの再実装3トラック + 用語の世代交代マップ
