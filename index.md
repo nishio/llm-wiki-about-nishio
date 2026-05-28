@@ -23,6 +23,8 @@ title: nishio LLM Wiki
 - [未踏-search.md](sources/未踏-search.md) — 77件、2002〜2025の23年スパン
 - [Scrapbox-search.md](sources/Scrapbox-search.md) — 310件、基盤かつ研究対象の二重位置
 - [KJ法-search.md](sources/KJ法-search.md) — 89件、60年スパンの方法論的核
+- [Kozaneba-search.md](sources/Kozaneba-search.md) — 116件、自作デジタル文房具、一次元化フェーズ
+- [Keichobot-search.md](sources/Keichobot-search.md) — Keicho+Keichobot系、自作チャットボット、言語化フェーズ、LLM以前から
 
 ## 統合解説 / 入り口（syntheses/）
 
@@ -38,7 +40,8 @@ title: nishio LLM Wiki
 
 ## プロジェクト（projects/）
 
-（順次追加）
+- [Kozaneba](wiki/projects/Kozaneba.md) — デジタル文房具、一次元化、5年継続
+- [Keichobot](wiki/projects/Keichobot.md) — チャットボット、言語化、6年継続(LLM以前から)
 
 ## 概念（concepts/）
 

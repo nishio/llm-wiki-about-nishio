@@ -45,3 +45,10 @@
 - `wiki/concepts/曖昧な停滞.md` — 出典 `行き詰まった協働と曖昧な停滞.md`、4スケール同型、Wiki内停滞事例も収録
 - `wiki/concepts/ConnectingDots.md` — Dot粒度保留、KJ法系譜の最新位置
 - `wiki/syntheses/年・10年スケール俯瞰.md` — 継続軸4本(知的生産レトリック/サイボウズ18年/未踏23年/KJ法系譜60年) + 10年区分3期 + 同じ問いの再実装3トラック + 用語の世代交代マップ
+
+## [2026-05-28] ingest | Kozaneba + Keichobot
+
+- `sources/Kozaneba-search.md` — 116件、2021-08起動の自作デジタル文房具、「一次元化フェーズ」
+- `sources/Keichobot-search.md` — Keicho(68)+Keichobot(42)、2019年起動のチャットボット、「言語化フェーズ」。**LLM以前から(2019)同じコンセプトを実装、2023-03にGPT統合**
+- `wiki/projects/Kozaneba.md` / `Keichobot.md` — 初の projects/ ページ
+- 重要発見: **Keichobot=言語化 / Kozaneba=一次元化** という分業設計が `Keichobotは言語化しKozanebaは一次元化する.md` に明示。知的生産プロセスを2フェーズに分解
