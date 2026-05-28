@@ -47,6 +47,7 @@ title: nishio LLM Wiki
 
 - [曖昧な停滞](wiki/concepts/曖昧な停滞.md) — 同型4スケール、Wikiが解消手段
 - [ConnectingDots](wiki/concepts/ConnectingDots.md) — Dot粒度を保留中、Wikiが粒度設計の前段
+- [未踏性](wiki/concepts/未踏性.md) — 個人×構造×動学の3層、改訂版が15年保留中の典型事例
 
 ## メタ（meta/）
 
