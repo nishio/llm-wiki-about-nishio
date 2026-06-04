@@ -50,6 +50,8 @@ ConnectingDots は nishio の方法論の系譜上にある：
 ## 関連
 
 - [[曖昧な停滞.md|曖昧な停滞]] — Dot 粒度設計はこのフレームの事例
+- [[始める-広げる-繋げる.md|始める / 広げる / 繋げる]] — 「点を打つ(A)→繋げる(C)」の方法論的基礎。本人自己評価 C>A>B が ConnectingDots を C 中心戦略として裏付ける
+- [[AI協働の4パターン.md|AI協働の4パターン]] — D パターン（データソース間の結合発見）は ConnectingDots の AI 実装路線として読める
 - [[../../sources/KJ法-search.md|KJ法]] — 同じ原型操作の長い系譜
 - [[../../sources/Scrapbox-search.md|Scrapbox]] — 既存の Dot 実装
 - [[../topics/ブロードリスニング.md|ブロードリスニング]] — 集団スケールの Dot 配置

@@ -11,6 +11,7 @@ title: nishio LLM Wiki
 ## 入り口
 
 - [これは何？](wiki/syntheses/これは何？.md) — このWikiは何か、nishioとは何者か
+- **[第一目的: 自己紹介ページを更新する](wiki/meta/目的-自己紹介ページ更新.md)** — 2026-05-31 明示。Wiki活動の第一目標。Dot/Story/解釈語彙の準備を担う
 
 ## ソース要約（sources/）
 
@@ -25,12 +26,20 @@ title: nishio LLM Wiki
 - [KJ法-search.md](sources/KJ法-search.md) — 89件、60年スパンの方法論的核
 - [Kozaneba-search.md](sources/Kozaneba-search.md) — 116件、自作デジタル文房具、一次元化フェーズ
 - [Keichobot-search.md](sources/Keichobot-search.md) — Keicho+Keichobot系、自作チャットボット、言語化フェーズ、LLM以前から
+- [villagepump-始める広げる繋げる-dialogue.md](sources/villagepump-始める広げる繋げる-dialogue.md) — 共同Scrapboxの対話要約。3軸フレーム C>A>B 自己評価の原典
+- [思考の結節点2025-10-29-bundle.md](sources/思考の結節点2025-10-29-bundle.md) — AI協働4パターン(A/B/C/D)論と理論的基盤群 1hop バンドル
+- [todo自己紹介更新-2hop-bundle.md](sources/todo自己紹介更新-2hop-bundle.md) — 自己紹介ページ更新 TODO の 2hop 26ページバンドル要約（第一目的のソース）
 
 ## 統合解説 / 入り口（syntheses/）
 
 - [これは何？](wiki/syntheses/これは何？.md) — 入り口
 - [nishio観察パターン](wiki/syntheses/nishio観察パターン.md) — 一次ソース横断で繰り返し現れる7パターン
 - [年・10年スケール俯瞰](wiki/syntheses/年・10年スケール俯瞰.md) — 継続軸 / 時代区分 / 同じ問いの再実装パターン
+- **[欠落Dot-2026](wiki/syntheses/欠落Dot-2026.md)** — 現bioに未反映の活動Dot 9カテゴリ。自己紹介ページ更新の不足分インベントリ
+
+## Dot 候補（dots/）
+
+- **[dots-candidate-2026](wiki/dots/dots-candidate-2026.md)** — 47 Dot を date/refs/entities/tags/status で formalize。本人レビュー → entrypoint import の前段
 
 ## 関心テーマ（topics/）
 
@@ -48,7 +57,19 @@ title: nishio LLM Wiki
 - [曖昧な停滞](wiki/concepts/曖昧な停滞.md) — 同型4スケール、Wikiが解消手段
 - [ConnectingDots](wiki/concepts/ConnectingDots.md) — Dot粒度を保留中、Wikiが粒度設計の前段
 - [未踏性](wiki/concepts/未踏性.md) — 個人×構造×動学の3層、改訂版が15年保留中の典型事例
+- [始める-広げる-繋げる](wiki/concepts/始める-広げる-繋げる.md) — 知的生産能力の3軸分解、本人自己評価 C>A>B、ConnectingDots の方法論的基礎
+- [シリアルマスタリー](wiki/concepts/シリアルマスタリー.md) — Lynda Gratton 由来。専門性を踏み台に次の専門性を獲得。P1（レトリック層）と並列の専門性投資層
+- [辺縁が育てばそれが中心](wiki/concepts/辺縁が育てばそれが中心.md) — 重心移動の動的構造論。本人が連想したが「ずれを感じる」と自己訂正したリンク
+- [戦略的曖昧化](wiki/concepts/戦略的曖昧化.md) — 不確実性活用のための意図的曖昧化。曖昧な停滞 の対概念、P1 のレトリック拡張を可能にする上流条件
+- [AI協働の4パターン](wiki/concepts/AI協働の4パターン.md) — 2025-10-29 提示。A=要約 / B=RAG / C=AIインタビュアー / **D=データ間結合発見**(次の発展形)
+- [自己紹介と歴史は共通の構造を持つ](wiki/concepts/自己紹介と歴史は共通の構造を持つ.md) — 2026-02-11 ひらめき。Dots/Stories/Views 3層構造。第一目的の構造論
+- [自己紹介ポーカー](wiki/concepts/自己紹介ポーカー.md) — 実績の役構成論。Story 層の理論的基礎、本Wikiの語彙が「役」候補として機能
+- [猿と箱のたとえ](wiki/concepts/猿と箱のたとえ.md) — 理論=踏み台 / 感性=ジャンプ力 (2010) → ブレスト/コンサル展開 (2020) → 網モデルへ自己反転 (2023)。15年反復された方法論的メタファー
+- [抽象化された空間での近傍探索](wiki/concepts/抽象化された空間での近傍探索.md) — 投影 → 近傍探索 → 引き戻し。word2vec(2014) → LSH(2018) → LLM投影(2023) → 「低次元はメタファー、本質はジャンプ性」(2026) と 12 年反復された連想/アナロジーの作動原理
+- [発散ムーブと収束ムーブ](wiki/concepts/発散ムーブと収束ムーブ.md) — リンコグラフィー由来 move 概念を 2026-06-04 に人生スケールへ拡張。**収束ムーブ=複数視点に支えられた判断=収穫**。「始める/広げる/繋げる」と接合され C=収束 / A=飛躍ある発散 / B=飛躍ない発散
+- [巨人の肩直通エレベーター](wiki/concepts/巨人の肩直通エレベーター.md) — 2026-06-04 提示。AI = 個々人の登りたい山にオンデマンドのヘリコプター。ロープウェイ（教科書/高等教育）との対比で AI の独自価値が **個別適応** にあることを明示
 
 ## メタ（meta/）
 
 - [proposed-next-pages.md](wiki/meta/proposed-next-pages.md) — 未着手のページ案（曖昧な停滞 / ConnectingDots / 年・10年スケール俯瞰）
+- **[目的-自己紹介ページ更新.md](wiki/meta/目的-自己紹介ページ更新.md)** — 第一目的の方針、現状ソース、次アクション候補
