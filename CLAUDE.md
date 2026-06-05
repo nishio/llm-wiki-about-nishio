@@ -16,8 +16,9 @@
 
 ## ディレクトリ構成
 
-- [raw/](raw) — 生ソース。読み取り専用。改変しない。
+- [raw/](raw) — 生ソース。読み取り専用。改変しない。**本Wiki repo は public なので、raw/ には公開 Cosense（`scrapbox.io/nishio`）由来の bundle のみを置く。private project / 非公開ソースは絶対に混入させない**（[[書く場所による言語化の効果]] / [[外部脳期2026]] の「private ⊃ public」原則）。
   - [raw/external_brain_in_markdown/](raw/external_brain_in_markdown) — Scrapbox `nishio` の Markdown エクスポート（git clone, gitignored, `git pull` で更新可）
+  - `raw/*.1hop.txt` / `*.2hop.txt` — 公開 Cosense からのキーワード/ページ起点 bundle export（追跡対象）。新規追加時は URL 行を `grep -E 'scrapbox.io/[^/]+/' raw/<file>` で確認し、`scrapbox.io/nishio/` 以外が含まれていないことを check する
 - [wiki/](wiki) — Wiki 本体
   - [wiki/concepts/](wiki/concepts) — 西尾の造語・特定用法の概念ページ（例: `ConnectingDots`、`曖昧な停滞`、`知的生産` の本人的フレーミング）
   - [wiki/topics/](wiki/topics) — 関心テーマのエントリーページ（例: `知的生産`, `ブロードリスニング`, `Plurality`, `AI×人文`）
