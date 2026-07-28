@@ -311,3 +311,9 @@ nhiro.org の broadlistening Story ページ作成中に本人が「これには
 サイト側（nishio/entrypoint）も同日修正済み。あわせて本人確認で確定した月: 世論地図=2024-10-18リリース、
 シン東京2050=2024-11〜2025-01-31、PLURALITY邦訳=2025-05刊行、
 ブロードリスニング本=『政治・自治体・企業に広がるブロードリスニング』(broadlisteningbook.com, 2026-09刊行予定)。
+
+## [2026-07-29] ops+file back | nhiro.org を GitHub Pages へ全面移行完了・第一目的が公開更新に到達
+
+DD2030 登壇者フォーム記入を契機に、放置されていた nhiro.org（正体は2012年契約のさくらVPS 1G / Ubuntu 12.04 EOL / Apache+Zimbra / HTTPのみ）を退役し、全公開コンテンツを `nishio/entrypoint`（GitHub Pages, docs/配信）へ移行。バリュードメインで DNS 切替（apex A→Pages 4IP、www→CNAME）、カスタムドメイン+Let's Encrypt で **14年ぶりに nhiro.org を HTTPS 配信**。第三者PII含む tmp_mitou_meikan は削除・404化。VPS全体は private repo `nishio/nhiro-org-vps-backup` にバックアップ、運用手順は RUNBOOK/HANDOFF に分離。
+
+**第一目的の質的達成**: bio文言更新に留まらず配信インフラごと刷新して公開更新に到達（[[wiki/meta/目的-自己紹介ページ更新.md]] の 2026-07-29 Updates）。DD2030フォーム提出完了、bioをサイトとフォームで一貫化。旧VPSは2026-08-04以降に解約予定（1週間観察後）。remote-control体制の土台（entrypoint/CLAUDE.md + private RUNBOOK）を構築。
