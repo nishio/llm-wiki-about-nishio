@@ -53,6 +53,7 @@ title: nishio LLM Wiki
 
 - [Kozaneba](wiki/projects/Kozaneba.md) — デジタル文房具、一次元化、5年継続
 - [Keichobot](wiki/projects/Keichobot.md) — チャットボット、言語化、6年継続(LLM以前から)
+- [entrypoint](wiki/projects/entrypoint.md) — nhiro.org。2026-07にGitHub Pagesへ完全移行、名刺+Story+凍結アーカイブの3層情報設計
 
 ## 概念（concepts/）
 

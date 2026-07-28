@@ -317,3 +317,10 @@ nhiro.org の broadlistening Story ページ作成中に本人が「これには
 DD2030 登壇者フォーム記入を契機に、放置されていた nhiro.org（正体は2012年契約のさくらVPS 1G / Ubuntu 12.04 EOL / Apache+Zimbra / HTTPのみ）を退役し、全公開コンテンツを `nishio/entrypoint`（GitHub Pages, docs/配信）へ移行。バリュードメインで DNS 切替（apex A→Pages 4IP、www→CNAME）、カスタムドメイン+Let's Encrypt で **14年ぶりに nhiro.org を HTTPS 配信**。第三者PII含む tmp_mitou_meikan は削除・404化。VPS全体は private repo `nishio/nhiro-org-vps-backup` にバックアップ、運用手順は RUNBOOK/HANDOFF に分離。
 
 **第一目的の質的達成**: bio文言更新に留まらず配信インフラごと刷新して公開更新に到達（[[wiki/meta/目的-自己紹介ページ更新.md]] の 2026-07-29 Updates）。DD2030フォーム提出完了、bioをサイトとフォームで一貫化。旧VPSは2026-08-04以降に解約予定（1週間観察後）。remote-control体制の土台（entrypoint/CLAUDE.md + private RUNBOOK）を構築。
+
+## [2026-07-29] implementation+file back | nhiro.org 完全移行完了と情報設計の記録
+
+nhiro.org が GitHub Pages + HTTPS で全面復旧（Story 3本・デザイン刷新・docs/分離・あの図掲載）。
+情報設計の決定（3層構造、Gendlin bio = 因果的不死の実例としての参照、ConnectingDots 手書き先行、
+「早すぎる制約を入れない」）を [wiki/projects/entrypoint.md](wiki/projects/entrypoint.md) に新規 file back。
+[wiki/meta/目的-自己紹介ページ更新.md](wiki/meta/目的-自己紹介ページ更新.md) の状態表と Updates を刷新済みに更新。
