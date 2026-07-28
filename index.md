@@ -75,4 +75,4 @@ title: nishio LLM Wiki
 ## メタ（meta/）
 
 - [proposed-next-pages.md](wiki/meta/proposed-next-pages.md) — 未着手のページ案（曖昧な停滞 / ConnectingDots / 年・10年スケール俯瞰）
-- **[目的-自己紹介ページ更新.md](wiki/meta/目的-自己紹介ページ更新.md)** — 第一目的の方針、現状ソース、次アクション候補
+- **[目的-自己紹介ページ更新.md](wiki/meta/目的-自己紹介ページ更新.md)** — 第一目的の方針、現状ソース、次アクション候補。2026-07-28: ライブ nhiro.org は DNS が旧さくらサーバ向きのままで GitHub 側更新が非反映と判明（Updates 参照）

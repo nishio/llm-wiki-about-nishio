@@ -295,3 +295,11 @@
 - GitHub Pages のビルド・デプロイ成功を確認（pages-build-deployment success）。前回デプロイは 2026-01-25 で、約 4.5 ヶ月ぶりの自己紹介ページ更新
 - 「曖昧な停滞」していた TODO:自己紹介ページを更新する が **初めて実際の公開更新に到達**。A サブセット（事実誤認の解消）は完了
 - 残: B5 掲載判断 / C1〜C3 / ビープラウド現況 / 英語版への未踏理事項の有無
+
+## [2026-07-28 15:07] deliverable+file back | entrypoint 2026年化 push + nhiro.org DNS 断絶の特定
+
+- 契機: DD2030 サミット登壇者プロフィール登録フォーム記入（bio は 207 字版を採用）→ ウェブサイト欄に耐える nhiro.org を目指す作業
+- entrypoint main を更新し push（fb3af00..7c75cdc）、GitHub Pages 反映確認済み: 「最近の活動」に 2026 ブロードリスニング共著書籍（2026-09 刊行予定）・DD2030「2025–現在」・参院選2025 を追加、index.html の `\"PLURALITY\"` エスケープ表示バグ修正
+- **発見: nhiro.org / www.nishiohirokazu.org の DNS は旧さくらサーバ（49.212.123.65、HTTP のみ）向きのままで、GitHub 側の更新はライブドメインに一切反映されない**。制約: `nhiro.org/langbook/` は旧サーバで現役のため apex の安易な切替は 404 を生む。`mem.nhiro.org` は Vercel 別レコードで無関係
+- 高解像度の近影 1 枚が登壇者フォーム（必須写真）とサイト顔写真刷新の共通ボトルネック
+- [[wiki/meta/目的-自己紹介ページ更新.md]] に Updates 追記、index.md の該当行を更新
