@@ -303,3 +303,11 @@
 - **発見: nhiro.org / www.nishiohirokazu.org の DNS は旧さくらサーバ（49.212.123.65、HTTP のみ）向きのままで、GitHub 側の更新はライブドメインに一切反映されない**。制約: `nhiro.org/langbook/` は旧サーバで現役のため apex の安易な切替は 404 を生む。`mem.nhiro.org` は Vercel 別レコードで無関係
 - 高解像度の近影 1 枚が登壇者フォーム（必須写真）とサイト顔写真刷新の共通ボトルネック
 - [[wiki/meta/目的-自己紹介ページ更新.md]] に Updates 追記、index.md の該当行を更新
+
+## [2026-07-28] correction | 日テレNEWS×2024衆院選を本人実績から除外
+
+nhiro.org の broadlistening Story ページ作成中に本人が「これには関わってない」と明言。
+[wiki/topics/ブロードリスニング.md](wiki/topics/ブロードリスニング.md) の「関わっている実装・事例」から削除し注記を追加。
+サイト側（nishio/entrypoint）も同日修正済み。あわせて本人確認で確定した月: 世論地図=2024-10-18リリース、
+シン東京2050=2024-11〜2025-01-31、PLURALITY邦訳=2025-05刊行、
+ブロードリスニング本=『政治・自治体・企業に広がるブロードリスニング』(broadlisteningbook.com, 2026-09刊行予定)。

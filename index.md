@@ -37,6 +37,7 @@ title: nishio LLM Wiki
 - [年・10年スケール俯瞰](wiki/syntheses/年・10年スケール俯瞰.md) — 継続軸 / 時代区分 / 同じ問いの再実装パターン
 - **[欠落Dot-2026](wiki/syntheses/欠落Dot-2026.md)** — 現bioに未反映の活動Dot 9カテゴリ。自己紹介ページ更新の不足分インベントリ
 - **[外部脳期2026](wiki/syntheses/外部脳期2026.md)** — 2024-09 開始の外部脳期に「公開Cosense形式の終焉予感」が現れた。cosense-cli + 集約コンテナ + private含む構成で「外部脳の本体は public にできない」が articulate される。LLM Wiki によるうろ覚えクエリの台頭と並行。**ビュー = public ストック / 本体 = private 動的システム** の二層化
+- [幸福のための計画2026](wiki/syntheses/幸福のための計画2026.md) — 2026-06-11 本人依頼への回答。本人の幸福観 5 原則（自己決定 / ストレスフル軸 / 不満足なソクラテス / 観察 / 求不得苦）から導出した default+veto 構造の 3 スケール計画
 
 ## Dot 候補（dots/）
 
