@@ -59,7 +59,7 @@ nishio自作のデジタル文房具。"a digital stationary to organize your th
 
 ## 停滞している意思決定
 
-- **Kozanebaの次の進む方向についてわかると良い** — [[../concepts/曖昧な停滞.md|曖昧な停滞]] 事例
+- **Kozanebaの次の進む方向についてわかると良い**（2021-09-01）— [[../concepts/曖昧な停滞.md|曖昧な停滞]] の当時の事例。2026-05-16 に Plan B（現行改造）と Plan A（新規）の並行で決着（kozaneba-dev-ai）
 - Kozanebaにエッジラベルをつけると良いのでは — 仕様の保留
 - TwitterをKozanebaに入れたい — 機能追加案の保留
 

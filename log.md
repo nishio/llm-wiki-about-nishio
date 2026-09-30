@@ -324,3 +324,9 @@ nhiro.org が GitHub Pages + HTTPS で全面復旧（Story 3本・デザイン�
 情報設計の決定（3層構造、Gendlin bio = 因果的不死の実例としての参照、ConnectingDots 手書き先行、
 「早すぎる制約を入れない」）を [wiki/projects/entrypoint.md](wiki/projects/entrypoint.md) に新規 file back。
 [wiki/meta/目的-自己紹介ページ更新.md](wiki/meta/目的-自己紹介ページ更新.md) の状態表と Updates を刷新済みに更新。
+
+## [2026-09-30 23:59] filing-back | wiki森の横断照合で見つかった食い違い 2 件を修正
+
+- wiki森の public wiki 12個を grasp `cross-project-spreads` で同名 handle ごとに束ね、Gemini（3.8 Flash medium / 3.1 Pro）に wiki をまたぐ食い違いを挙げさせ、Claude が原文と照らして判定した（2026-09-30、galleria の taskF）。Gemini の修正案はそのまま当てていない。
+- [wiki/topics/ブロードリスニング.md](wiki/topics/ブロードリスニング.md): Trask 由来の「最古の一次資料」を 2025-02 の論文としていたが、2024-01-11 の Glen Weyl QA（kozaneba-dev-ai）と *Plurality* 本の脚注が先行する。「最古の文書」と「論文での明記」に分けた。どれを一次と呼ぶかは所有者の判断で未確定。
+- [wiki/projects/Kozaneba.md](wiki/projects/Kozaneba.md): 停滞中の意思決定「次の進む方向」に 2021-09-01 の日付と、2026-05-16 に並行方針で決着したこと（kozaneba-dev-ai）を付記。
