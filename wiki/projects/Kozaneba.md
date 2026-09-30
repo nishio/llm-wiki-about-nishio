@@ -20,6 +20,7 @@ nishio自作のデジタル文房具。"a digital stationary to organize your th
 - Kozaneba = **一次元化**（関係を客体化→ストーリーへ並べる）
 
 → Kozaneba は「**すでに言語化されたものを構造化・物語化する**」段階の専用ツール。
+  - こざね一枚一枚の中身は言語化済みで、配置の近さはまだ言語化されていない。lenchi や kozaneba-dev-ai が Kozaneba を「前言語的な構造化に強い」と書くのは、この配置の側を指している。
 
 ## KJ法系譜の中での位置
 
