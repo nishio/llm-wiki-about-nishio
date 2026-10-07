@@ -88,7 +88,7 @@ status の意味:
 - **status**: needs-date
 - **summary**: 一部 bio にのみ記載。月日を本人に要確認。
 
-### D006 デジタル民主主義2030 (dd2030) 主要メンバー
+### D006 デジタル民主主義2030 (dd2030) 参加
 - **date**: 2025 ongoing
 - **refs**:
   - raw/external_brain_in_markdown/pages/dd2030.md
@@ -96,7 +96,7 @@ status の意味:
 - **entities**: デジタル民主主義2030, dd2030
 - **tags**: 役職, コミュニティ, ongoing
 - **status**: ongoing
-- **summary**: dd2030 slack 主要メンバー。広聴AI 開発の中心拠点。「世界を良くするために力を合わせたい人の集まり」と本人言及（D001 同日ツイート）。
+- **summary**: デジタル民主主義2030 の一員として広聴AI の開発に関わる（207字版 bio「デジタル民主主義2030プロジェクトでの広聴AIの開発にも関わっている」）。旧記載の「主要メンバー」は一次ソースに無い役割語だったため削除（2026-10-07 lint）。「世界を良くするために力を合わせたい人の集まり」と本人言及（D001 同日ツイート）。
 
 ---
 
@@ -131,7 +131,7 @@ status の意味:
   - https://note.com/annotakahiro24/n/ndd21a8ba3eec
 - **entities**: 日本テレビ, 安野貴博, Talk to the City
 - **tags**: ブロードリスニング, 選挙, 衆院選, メディア, 2024
-- **status**: confirmed
+- **status**: excluded（本人非関与。2026-07-28 本人明言、topics/ブロードリスニング.md 参照。エコシステムの事例としては存在するが本人の Dot ではない）
 - **summary**: 「地上波世界初」とされる、ブロードリスニング技術を使ったテレビ選挙報道。投票誰にする会議 〜みんなの声でつくる衆議院選挙2024〜。
 
 ### D104 JAPAN CHOICE 世論地図
@@ -293,15 +293,15 @@ status の意味:
 - **summary**: 知的生産技術書。2024 年に出版 5 年以上経過して増刷（ロングセラー化）。
 
 ### D207 PLURALITY 邦訳（サイボウズ式ブックス）
-- **date**: 出版時期要確認
+- **date**: 2025-05-02 発売（2026-07-28 本人確認、nishio/connecting_dots `dots.json`）
 - **refs**:
   - raw/external_brain_in_markdown/pages/Plurality和訳.md
   - raw/external_brain_in_markdown/pages/サイボウズ式ブックス.md
   - https://scrapbox.io/plurality-japanese/初めに読んでね
 - **entities**: Audrey Tang, Glen Weyl, サイボウズ式ブックス, ライツ社
 - **tags**: 著書, 翻訳, Plurality, リーダー
-- **status**: needs-date
-- **summary**: 『PLURALITY 対立を創造に変える、協働テクノロジーと民主主義の未来』邦訳プロジェクトリーダー。出版時期/状態を本人確認要。
+- **status**: confirmed
+- **summary**: 『PLURALITY 対立を創造に変える、協働テクノロジーと民主主義の未来』邦訳プロジェクトリーダー。2025-05-02 発売。
 
 ### D208 ⿻ 數位 Plurality（英語原書 Contributor & Editor）
 - **date**: 2024
@@ -319,7 +319,7 @@ status の意味:
 - **entities**: Audrey Tang, dd2030
 - **tags**: 著書, 執筆中, ブロードリスニング
 - **status**: in-progress
-- **summary**: 2026-02 末締切で執筆中。Audrey Tang からのメッセージを収録。チームみらいだけでなく色々な党・自治体・民間企業の事例を扱う。
+- **summary**: 2026-02 末締切で執筆中（2026-05 時点）。書名は『政治・自治体・企業に広がるブロードリスニング』、2026-09 刊行予定（2026-07-28 本人確認）。刊行済みかは未確認。Audrey Tang からのメッセージを収録。チームみらいだけでなく色々な党・自治体・民間企業の事例を扱う。
 
 ### D210 LENCHI / LLMを使いこなすエンジニアの知的生産術（執筆中）
 - **date**: 2024-04 〜 ongoing
@@ -450,7 +450,7 @@ status の意味:
 - **entities**: Audrey Tang
 - **tags**: イベント, Plurality, ongoing
 - **status**: ongoing
-- **summary**: Plurality Tokyo, Plurality Tokyo Salon, Plurality Tokyo Namerakaigi 等の主催/参加。
+- **summary**: Plurality Tokyo（2023-04-12、Audrey Tang キーノートを翻訳）、Plurality Tokyo Salon、Plurality Tokyo Namerakaigi（2025-02-25、参加者に nishio）等への参加・記録。旧記載の「主催」は一次ソースで確認できない役割語だったため削除（2026-10-07 lint）。
 
 ### D404 Plurality Summit 2024
 - **date**: 2024
@@ -629,7 +629,7 @@ status の意味:
 - **entities**: サイボウズ・ラボ
 - **tags**: 役職, 本職
 - **status**: ongoing
-- **summary**: 2007 年入社。チームワークや知的生産性を高めるソフトウェアの研究。主幹研究員。
+- **summary**: 2007 年入社。チームワークや知的生産性を高めるソフトウェアの研究。主幹研究員は 2018-04〜（nishio/connecting_dots `dots.json`）。英語表記は Research Director, Cybozu Labs。
 
 ### D804 2002年度未踏スーパークリエータ
 - **date**: 2002
@@ -638,6 +638,7 @@ status の意味:
 - **tags**: 受賞, 未踏, 2002
 - **status**: confirmed
 - **summary**: 初年度の未踏ユース採択（20歳）。3D 仮想空間でエージェント環境相互作用や遺伝的アルゴリズムを実装。
+- **2026-10-07 lint 注記**: この Dot は別々の 3 つの事実を混ぜている可能性が高い。nishio/connecting_dots `dots.json` では (1) 2001 未踏ソフトウェア創造事業の採択プロジェクト「双方向通信型3Dワールドシミュレーター」に**開発メンバーとして参加**（採択者は別人）、(2) 2002 未踏ユースで自分のプロジェクト（ゲノム配列の可視化）が採択、(3) 2003-07 スーパークリエータ認定、に分かれている。raw 自己紹介.md も 3D-NWS を「2001年未踏」と書いている。本 Dot は上書きせず、connecting_dots 側を正とする
 
 ### D805 未踏ジュニア コファウンダー・メンター
 - **date**: 2016 〜 ongoing
@@ -650,12 +651,12 @@ status の意味:
 - **summary**: 17 歳以下のクリエータ支援プログラムのコファウンダー兼メンター。継続中。
 
 ### D806 BeProud 機械学習関連の技術顧問
-- **date**: 2017 〜 状態要確認
+- **date**: 2017-05 〜 2018（nishio/connecting_dots `dots.json`）
 - **refs**: raw/external_brain_in_markdown/pages/自己紹介.md
 - **entities**: BeProud
 - **tags**: 役職, 兼務, 2017
-- **status**: needs-date
-- **summary**: 機械学習関連の技術顧問。現在も継続中か要本人確認。
+- **status**: confirmed
+- **summary**: 機械学習関連の技術顧問（PyQ の機械学習カリキュラム等）。connecting_dots では 2018 までの期間 Dot になっている。
 
 ---
 
@@ -702,3 +703,11 @@ status の意味:
 - 「**未踏ジュニア で何件メンターしたか**」を集約 Dot とするか、個別案件を Dot 化するか
 - 守秘契約等で bio に出せない案件がある場合、本ファイルに status: confidential のような区別を追加するか
 - Dot ID 体系（カテゴリ番号 + 連番）を続けるか、Scrapbox の page ID 的なハッシュにするか
+
+## Updates
+
+### 2026-10-07 lint: 本移行先は connecting_dots
+
+- このページの Dot 候補は、その後 `nishio/connecting_dots`（public）の `dots.json` に移されて精査された。2026-08-01 に本人と公開レビューを行い、2026-10-05 時点で 97 Dot / 8 Story、nhiro.org/connecting_dots/ で配信中。status フィールドは持たない設計になった（候補は別ファイル、受理は `dots.json`）。**事実関係は connecting_dots 側を正とし、本ページは 2026-05-31 時点の候補一覧として残す**
+- 本ページ内で直した箇所: D006（「主要メンバー」を削除）/ D103（本人非関与として excluded）/ D207（2025-05-02 発売）/ D209（書名と刊行予定）/ D403（「主催」を削除）/ D803（主幹研究員は 2018-04〜）/ D806（2017-05〜2018）/ D804（3 つの事実の混同を注記）
+- 「次の運用」の「JSON 化して entrypoint に import」は、connecting_dots → nhiro.org の配信で実現済み

@@ -19,7 +19,7 @@ sources:
 
 ## 次の候補
 
-### 1. Kozaneba 個別ページ
+### 1. ~~Kozaneba 個別ページ~~ → 着手済み（2026-05-28 `wiki/projects/Kozaneba.md`）
 
 - KJ法のサーベイで、Kozaneba（nishio自作のKJ法系ツール）が広範に参照されていることが判明
 - 単独のキーワードサーベイ + concept ページ化が必要
@@ -32,7 +32,7 @@ sources:
 
 ### 3. プロジェクトページ群（wiki/projects/）
 
-- `wiki/projects/` ディレクトリは作成済みだが空
+- ~~`wiki/projects/` ディレクトリは作成済みだが空~~ → Kozaneba / Keichobot / entrypoint の 3 ページあり（2026-10-07 時点）
 - 候補: Plurality-LLM-Wiki, Delite-LLM-Wiki, Policy-PR-Hub, シン東京2050, 広聴AI, ScrapboxAutoTrans/Connector/GPT 等
 - 既存サーベイから抽出可能
 
@@ -53,3 +53,4 @@ sources:
 - 2026-05-27 初版作成、3案
 - 2026-05-27 当日中に3案いずれも着手済み、追加6案を記録
 - 2026-05-28 Kozaneba/Keichobot プロジェクトページ着手 + 未踏性概念着手
+- 2026-10-07 lint: 候補 1 と候補 3 の「projects/ が空」を着手済みとして更新

@@ -13,8 +13,8 @@ sources:
 ## nishio の関わり
 
 - **寄稿者・編集者の一人** （Plurality本にEditingで載っている）
-- **日本語化プロジェクトリーダー** — 邦訳『PLURALITY 対立を創造に変える、協働テクノロジーと民主主義の未来』（サイボウズ式ブックス）
-- Plurality Tokyo 開催（2023〜）、その後 Seoul, Kumamoto などにも展開
+- **日本語化プロジェクトリーダー** — 邦訳『PLURALITY 対立を創造に変える、協働テクノロジーと民主主義の未来』（サイボウズ式ブックス、2025-05-02 発売）
+- Plurality Tokyo（2023-04-12）の記録: 当日メモ、Audrey Tang キーノートの翻訳、Polis 体験記（[西尾の体験 on Plurality Tokyo](../../raw/external_brain_in_markdown/pages/西尾の体験%20on%20Plurality%20Tokyo.md)）。開催告知は別の人物によるもので、nishio の運営上の役割（主催か参加か）は一次ソースで確認できていない
 - Plurality Summit 2024、Plurality Tokyo Salon (2023-07-08, 2023-10-06)、Plurality Tokyo Namerakaigi
 - Audrey Tang のキーノート（Plurality Tokyo Keynote）を日本語に翻訳
 
@@ -24,7 +24,7 @@ nishio の自己紹介bioに繰り返し現れる解釈：
 
 > Plurality本の中で語られた技術「**ブロードリスニング**」を **人間の他者理解能力を増強する『知的生産性向上』** と捉えており、この技術が **地球文明の進歩** につながる鍵だと考えている。
 
-→ Plurality を単独の政治思想として受け取るのではなく、nishio の長年の関心軸「知的生産性の向上 → 文明の進歩」に接続して受容している。
+→ nishio は Plurality を、長年の関心軸「知的生産性の向上 → 文明の進歩」に接続して受容している。
 
 ## サブテーマ群
 

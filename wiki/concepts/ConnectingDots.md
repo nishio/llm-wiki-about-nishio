@@ -62,3 +62,12 @@ ConnectingDots は nishio の方法論の系譜上にある：
 - 既存ツール（Kozaneba, Scrapbox）と ConnectingDots の関係は、置換か / 上位レイヤーか / 別物か
 - スティーブ・ジョブズの "connect the dots backwards" モチーフはどこまでロード bearing か、それとも語感だけか
 - Dot 粒度を**用途ごとに切り替える**設計（固定しない）も選択肢として検討されているか
+
+## Updates
+
+### 2026-10-07 lint: 「Dot 粒度は保留中」はもう現状ではない
+
+- 実装は `nishio/connecting_dots`（public）、設計 wiki は connecting-dot-design。HANDOFF.md によれば設計は closed で、`build.py` が end-to-end で動いている
+- Dot 粒度の問いは「Dot と Story は固定層でなく相対的な役で、Dot 粒度は出力（View）の高度が決める」（flatness-is-view-resolution）という形で決着した
+- 2026-08-01 に自己紹介 Dot の本移行を終え、nhiro.org/connecting_dots/ で公開。2026-10-05 時点で 97 Dot / 8 Story
+- したがって本文の「意思決定保留中」「曖昧な停滞の典型事例」は 2026-05 時点の記述。上の Open Questions のうち「外部脳内に ConnectingDots 名義の文書が他にあるか」以外は、connecting-dot-design 側で扱われている

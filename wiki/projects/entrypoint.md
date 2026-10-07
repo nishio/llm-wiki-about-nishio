@@ -45,3 +45,13 @@ Story の書式: 定義 → なぜ取り組むか（本人の解釈フレーム�
 - [[../meta/目的-自己紹介ページ更新.md|第一目的: 自己紹介ページを更新する]] — このプロジェクトの司令塔
 - [[../concepts/自己紹介と歴史は共通の構造を持つ.md|自己紹介と歴史は共通の構造を持つ]] — Story 構造の理論的根拠
 - [[../topics/ブロードリスニング.md|ブロードリスニング]] / [[../topics/Plurality.md|Plurality]] / [[../topics/知的生産.md|知的生産]] — 3本の Story の素材元
+
+## Updates
+
+### 2026-10-07 lint（entrypoint の git log と TODO.md で確認）
+
+- Story は 3 本から 5 本に増えた: 2026-08-01 に `mentoring/`・`highdim/` を追加。6 本目「Visual Thinking」は保留（TODO.md）
+- ConnectingDots の crawl 面（`dots.json`、Dot/Story ごとのページ、sitemap）を `nhiro.org/connecting_dots/` 配下に配信。2026-10-05 時点で 97 Dot / 8 Story、CV View あり。ソースは `nishio/connecting_dots`
+- 残タスクのうち完了: `entrypoint/CLAUDE.md` の設置、`t/` → `pdf/` のリネーム（2026-07-29）
+- 残タスクのうち未完了: 高解像度顔写真（プレスキットのブロッカー）。what_i_did/ の目録化、Claude GitHub App 接続、MX と旧 VPS 解約の状態はこの lint では確認していない
+- 肩書きの英語表記は TODO.md のプレスキット案で「Research Director, Cybozu Labs」

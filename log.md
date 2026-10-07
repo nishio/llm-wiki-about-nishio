@@ -334,3 +334,18 @@ nhiro.org が GitHub Pages + HTTPS で全面復旧（Story 3本・デザイン�
 ## [2026-10-01 00:40] filing-back | Kozaneba の「言語化済み」と「前言語的」の関係を明記
 
 - wiki森の横断照合（2026-09-30）で「食い違いではない」と判定された件への任意の追記。[wiki/projects/Kozaneba.md](wiki/projects/Kozaneba.md) に、こざねの中身は言語化済みで配置の近さが未言語化であり、lenchi・kozaneba-dev-ai の「前言語的な構造化に強い」は配置の側を指す、と一言足した。
+
+## [2026-10-07] lint | 初回 lint: 経歴の役割語・年数を一次ソースと突き合わせて修正、Dot/ConnectingDots/entrypoint の stale を更新
+
+- 機械的 lint: `lint_wiki.py` は llm-wiki 固定パスのため、この wiki の構成（index/log が root、sources/ が wiki/ 外）を一時コピーして実行。この wiki は相対パスの `[[../...]]` で raw ページを指すので、壊れリンク・孤立の数字はそのままでは使えない。相対リンクを別途検査し、`~/.claude` の memory を指す公開不能リンク 2 件を wiki 内ページ／log 参照に置き換えた。raw に無いページへのリンク 18 件は公開 export に無いページ（Cosense の赤リンク相当）なので残した
+- 経歴の事実（根拠: nishio/connecting_dots `dots.json`（2026-08-01 本人と公開レビュー済）、raw `自己紹介.md`、2026-07-28 の本人確認）:
+  - 主幹研究員は 2018-04〜。「2007年より主幹研究員」「主幹研究員（2007〜）」を これは何？ / 自己紹介-bios / サイボウズ-search / 年・10年スケール俯瞰 / D803 で直した
+  - 未踏は 2001 年（採択プロジェクトに開発メンバーとして参加）から。2002 未踏ユース採択、2003-07 スーパークリエータ認定。「2002〜2025 の23年スパン」は理事退任で関係が終わったように読めるので、開始年で書き直した（未踏-search / 未踏性 / 年・10年 / index）。D804 は 3 つの事実を混ぜている可能性を注記（上書きはしない）
+  - 一次ソースに無い役割語を削除: Plurality Tokyo の「開催」「主催」（topics/Plurality, D403）、dd2030「主要メンバー」（D006, 欠落Dot）
+  - PLURALITY 邦訳は 2025-05-02 発売（「2024邦訳」を修正、D207 / C2 解消）。日テレ×2024衆院選は本人非関与なのに D103 / B3 / 欠落Dot 表に残っていたので除外表示。BeProud 技術顧問は 2017-05〜2018
+  - 年数の修辞を削除・言い換え: 「サイボウズ18年」「未踏23年」「約8年」「20+ 年蓄積」「20 年分」「15 年スケール」
+  - 人物を「〜ではない」で対比する書き方を言い換え（未踏-search / サイボウズ-search / Plurality / Keichobot / 年・10年 の「意図的な選択ではなく」= 意図は未確認と明記）
+- 矛盾・stale: Plurality Tokyo「2023年7月」→ 2023-04-12、Cosense 改称「2024-09」→ 2024-05-21、Kozaneba「〜2020」→ 2021-08〜、シン東京2050 を 2023 年のトリガーに数えていた点、自己紹介と歴史 の例 Dot の日付（2024-05-06 → 2024-07）、シリアルマスタリー / 戦略的曖昧化 / 辺縁 に残っていた「P1 訂正対象」（2026-05-31 correction の取りこぼし）
+- 「未決」の検証（entrypoint・connecting_dots の git log と TODO.md / HANDOFF.md で確認）: ConnectingDots の「Dot 粒度は保留中」は解消済み（2026-08-01 本移行、2026-10-05 で 97 Dot / 8 Story）、entrypoint の Story は 5 本、CLAUDE.md 設置と t/→pdf/ は完了。ConnectingDots / entrypoint / 目的 / 曖昧な停滞 / 欠落Dot / dots-candidate に Updates を追記。proposed-next-pages の着手済み 2 件と index の説明文のずれを修正
+- 本人判断に残したもの: dots-candidate-2026 の位置づけ（connecting_dots へ移ったので履歴として凍結するか）、「2025年が卒業の年」「20年期」の解釈、未踏-search の東工大と未踏の関係の推測（削除済み、要否確認）、proposed-next-pages 候補 5「非公開版」の現状
+- 自己紹介ページ更新への寄与: Story の土台になる語彙ページから、経歴の繋ぎ目の誤り（主幹の開始年・未踏の始まり・役割語）を除いた

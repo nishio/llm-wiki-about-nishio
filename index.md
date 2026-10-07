@@ -21,7 +21,7 @@ title: nishio LLM Wiki
 - [AI-LLM-機械学習.md](sources/AI-LLM-機械学習.md) — 3語(536/98/17件)の使い分けが意識的であることの実証
 - [word2vec-自然言語処理.md](sources/word2vec-自然言語処理.md) — 2014年著書周辺の小クラスタ、機械学習層の典型
 - [コーディングを支える技術-search.md](sources/コーディングを支える技術-search.md) — 2013年著書、メタ情報7件、関心軸の重心移動の証拠
-- [未踏-search.md](sources/未踏-search.md) — 77件、2002〜2025の23年スパン
+- [未踏-search.md](sources/未踏-search.md) — 77件、2001年の未踏参加から現在（未踏ジュニアのメンター継続中）まで
 - [Scrapbox-search.md](sources/Scrapbox-search.md) — 310件、基盤かつ研究対象の二重位置
 - [KJ法-search.md](sources/KJ法-search.md) — 89件、60年スパンの方法論的核
 - [Kozaneba-search.md](sources/Kozaneba-search.md) — 116件、自作デジタル文房具、一次元化フェーズ
@@ -41,7 +41,7 @@ title: nishio LLM Wiki
 
 ## Dot 候補（dots/）
 
-- **[dots-candidate-2026](wiki/dots/dots-candidate-2026.md)** — 47 Dot を date/refs/entities/tags/status で formalize。本人レビュー → entrypoint import の前段
+- **[dots-candidate-2026](wiki/dots/dots-candidate-2026.md)** — 47 Dot を date/refs/entities/tags/status で formalize（2026-05-31）。その後の本移行先は nishio/connecting_dots の `dots.json`（2026-10-05 時点 97 Dot、nhiro.org/connecting_dots/ で公開）
 
 ## 関心テーマ（topics/）
 
@@ -76,5 +76,5 @@ title: nishio LLM Wiki
 
 ## メタ（meta/）
 
-- [proposed-next-pages.md](wiki/meta/proposed-next-pages.md) — 未着手のページ案（曖昧な停滞 / ConnectingDots / 年・10年スケール俯瞰）
+- [proposed-next-pages.md](wiki/meta/proposed-next-pages.md) — ページ案の記録。初期3案と Kozaneba/projects 案は着手済み、残りはブロードリスニング事例整理・2002〜2017 補完・非公開版
 - **[目的-自己紹介ページ更新.md](wiki/meta/目的-自己紹介ページ更新.md)** — 第一目的の方針、現状ソース、次アクション候補。**2026-07-29: nhiro.org を旧さくらVPS(EOL)から GitHub Pages へ全面移行・HTTPS化完了。第一目的が「配信インフラごと刷新した公開更新」に到達**（Updates 参照）
