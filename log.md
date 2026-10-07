@@ -349,3 +349,7 @@ nhiro.org が GitHub Pages + HTTPS で全面復旧（Story 3本・デザイン�
 - 「未決」の検証（entrypoint・connecting_dots の git log と TODO.md / HANDOFF.md で確認）: ConnectingDots の「Dot 粒度は保留中」は解消済み（2026-08-01 本移行、2026-10-05 で 97 Dot / 8 Story）、entrypoint の Story は 5 本、CLAUDE.md 設置と t/→pdf/ は完了。ConnectingDots / entrypoint / 目的 / 曖昧な停滞 / 欠落Dot / dots-candidate に Updates を追記。proposed-next-pages の着手済み 2 件と index の説明文のずれを修正
 - 本人判断に残したもの: dots-candidate-2026 の位置づけ（connecting_dots へ移ったので履歴として凍結するか）、「2025年が卒業の年」「20年期」の解釈、未踏-search の東工大と未踏の関係の推測（削除済み、要否確認）、proposed-next-pages 候補 5「非公開版」の現状
 - 自己紹介ページ更新への寄与: Story の土台になる語彙ページから、経歴の繋ぎ目の誤り（主幹の開始年・未踏の始まり・役割語）を除いた
+
+## [2026-10-08 12:30] filing-back | Plurality Tokyo での nishio の役割を確定
+
+- `wiki/topics/Plurality.md` — 2026-10-07 の lint で「開催」を削り「主催か参加か未確認」としていた箇所を、本人の記述で確定: 2023 年の参加者＋Audrey Tang 基調講演の翻訳者、主催は別の人物。出典は Cosense nishio「AIでのプレゼン資料づくり勉強会」の 2026-09-16 の行（raw export には未収録のため Cosense を読んで確認、書き込みはしていない）。Updates に記録

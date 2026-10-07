@@ -14,7 +14,7 @@ sources:
 
 - **寄稿者・編集者の一人** （Plurality本にEditingで載っている）
 - **日本語化プロジェクトリーダー** — 邦訳『PLURALITY 対立を創造に変える、協働テクノロジーと民主主義の未来』（サイボウズ式ブックス、2025-05-02 発売）
-- Plurality Tokyo（2023-04-12）の記録: 当日メモ、Audrey Tang キーノートの翻訳、Polis 体験記（[西尾の体験 on Plurality Tokyo](../../raw/external_brain_in_markdown/pages/西尾の体験%20on%20Plurality%20Tokyo.md)）。開催告知は別の人物によるもので、nishio の運営上の役割（主催か参加か）は一次ソースで確認できていない
+- Plurality Tokyo（2023-04-12）の記録: 当日メモ、Audrey Tang キーノートの翻訳、Polis 体験記（[西尾の体験 on Plurality Tokyo](../../raw/external_brain_in_markdown/pages/西尾の体験%20on%20Plurality%20Tokyo.md)）。nishio は参加者で、Audrey Tang 基調講演の翻訳者。主催は別の人物（nishio 本人の記述「主催したことはない(2023年の参加者＋Audrey Tang基調講演の翻訳者。主催は別の方)」、Cosense ページ「AIでのプレゼン資料づくり勉強会」2026-09-16 の行）
 - Plurality Summit 2024、Plurality Tokyo Salon (2023-07-08, 2023-10-06)、Plurality Tokyo Namerakaigi
 - Audrey Tang のキーノート（Plurality Tokyo Keynote）を日本語に翻訳
 
@@ -36,6 +36,10 @@ nishio の自己紹介bioに繰り返し現れる解釈：
 - **Tokyo 関連**: NFT, Namerakaigi #1/#2, Salon, Keynote
 - **応用領域**: "日本文化AI", "AIの進歩とPlurality", "LLMとPlurality"
 - **Japan ローカライズ**: Plurality in Japan, Plurality和訳, Making: Plurality in Japan
+
+## Updates
+
+- 2026-10-08: Plurality Tokyo での役割を「一次ソースで確認できていない」から「参加者＋基調講演の翻訳者、主催は別の人物」に確定。根拠は nishio 本人の Cosense の記述（AIでのプレゼン資料づくり勉強会、2026-09-16。手元の raw export より新しいので Cosense から読んで確認した）。
 
 ## 関連
 
