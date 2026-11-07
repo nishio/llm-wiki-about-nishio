@@ -71,4 +71,8 @@ ChatGPT 登場前の **2019 年から続くコンセプトを、LLM で再実装
 
 ## Open Questions
 
-詳細サーベイの Open Questions は [[../../sources/Keichobot-search.md|Keichobot-search]] 参照。
+詳細サーベイの Open Questions は [[../../sources/Keichobot-search.md|Keichobot-search]] 参照。 2026-11-07の現状照合による解決・前提変更は、参照先を上書きせず本ページの Updates に追記した。
+
+## Updates
+
+- 2026-11-07: 参照先のOpen Questionsの現状を補足 — 参照先 `sources/Keichobot-search.md` の「Regroup（Kozaneba旧名? 別ツール?）との関係を要追加調査」。ReGroup→Movidea→Kozanebaの系譜は実装側の本人レビュー記録で確認。Keichobotとの接続全体を答えたとは扱わない。（根拠: connecting_dots d8453e7・2026-08-01 実装記録、`/Users/nishio/connecting_dots/dots.json:1405`）

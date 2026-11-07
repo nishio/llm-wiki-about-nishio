@@ -696,13 +696,10 @@ status の意味:
 
 ## Open Questions
 
-- **D207 Plurality 邦訳本**の出版状況（出版済 / 予定 / 取り止め）が外部脳から判定できない、要本人確認
 - **D304 倍速会議**の開発開始時期不明（2026-02 外部紹介は確実）
-- **D211 Engineer's way of creating knowledge** の出版経緯（翻訳 or 並行執筆 or 部分公開）
-- **D107 渋谷区 / D112 DX&AI Forum / D405 KJ法勉強会 / D505 レバテックラボ / D506 ゆるコンピュータ科学ラジオ**の具体日付
-- 「**未踏ジュニア で何件メンターしたか**」を集約 Dot とするか、個別案件を Dot 化するか
-- 守秘契約等で bio に出せない案件がある場合、本ファイルに status: confidential のような区別を追加するか
-- Dot ID 体系（カテゴリ番号 + 連番）を続けるか、Scrapbox の page ID 的なハッシュにするか
+- D112 DX&AI Forum は2024-09-13、D405 KJ法勉強会（ロフトワーク）は2022-12-02と原文に明記されている。D506は動画公開日2025-08-03まで確認できるが、本人出演日・出演自体の根拠は未確認。D107渋谷区・D505レバテックラボの具体日付も引き続き未確認。
+- 公開実装では未踏ジュニアの設立と継続メンターの事実を分けてDot化している（2026-08-01）。メンター件数の集計、および個別案件をどこまでDot化するかは未確認。
+- 以後のDot管理は `connecting_dots` へ移り、候補と受理は置き場で分け、`status` フィールドを持たない設計になった。この履歴用候補一覧と移行先で、公開できない案件をどこに置き、どの範囲を公開するかは別途確認が必要。
 
 ## Updates
 
@@ -711,3 +708,10 @@ status の意味:
 - このページの Dot 候補は、その後 `nishio/connecting_dots`（public）の `dots.json` に移されて精査された。2026-08-01 に本人と公開レビューを行い、2026-10-05 時点で 97 Dot / 8 Story、nhiro.org/connecting_dots/ で配信中。status フィールドは持たない設計になった（候補は別ファイル、受理は `dots.json`）。**事実関係は connecting_dots 側を正とし、本ページは 2026-05-31 時点の候補一覧として残す**
 - 本ページ内で直した箇所: D006（「主要メンバー」を削除）/ D103（本人非関与として excluded）/ D207（2025-05-02 発売）/ D209（書名と刊行予定）/ D403（「主催」を削除）/ D803（主幹研究員は 2018-04〜）/ D806（2017-05〜2018）/ D804（3 つの事実の混同を注記）
 - 「次の運用」の「JSON 化して entrypoint に import」は、connecting_dots → nhiro.org の配信で実現済み
+
+- 2026-11-07: 解決済みとしてOpen Questionsから除外 — **D207 Plurality 邦訳本**の出版状況（出版済 / 予定 / 取り止め）が外部脳から判定できない、要本人確認。2026-07-28本人確認と10-07の訂正で2025-05-02発売が確定し、D207本文にも反映済み。（根拠: 2026-07-28 本人確認、c3f3b1d（2026-10-07）、`log.md:312`；c3f3b1d（2026-10-07）、`log.md:345`）
+- 2026-11-07: 解決済みとしてOpen Questionsから除外 — **D211 Engineer's way of creating knowledge** の出版経緯（翻訳 or 並行執筆 or 部分公開）。本人の英語化プロジェクト原文が翻訳と明記し、2022-02-09に翻訳完了を記録。2026-08-01の公開実装にも英語版の無料公開を記録。図版文言・文法チェックが当時残っていた留保は保つ。商業出版とは断定しない。（根拠: 公開 Cosense 本人の翻訳完了記録（2022-02-09）、`/Users/nishio/llm-wiki-about-nishio/raw/external_brain_in_markdown/pages/エンジニアの知的生産術英語化プロジェクト.md:6`；公開 Cosense 本人の2022-02-09の記録、`/Users/nishio/llm-wiki-about-nishio/raw/external_brain_in_markdown/pages/pIntEn 7章まで翻訳完了.md:84`；connecting_dots d8453e7（2026-08-01）、`/Users/nishio/connecting_dots/dots.json:1408`）
+- 2026-11-07: Open Questionsの現状を更新 — **D107 渋谷区 / D112 DX&AI Forum / D405 KJ法勉強会 / D505 レバテックラボ / D506 ゆるコンピュータ科学ラジオ**の具体日付。D112の日時とD405（ロフトワーク）の開催日、D506の動画公開日を原文で確認。他の日付と本人出演の裏づけは未確認なので一括では閉じない。（根拠: 公開 Cosense に記録された開催日時、`/Users/nishio/llm-wiki-about-nishio/raw/external_brain_in_markdown/pages/DX&AI Forum 2024 生成AIで作るデジタル民主主義の未来.md:8`；公開 Cosense の開催当日記録、`/Users/nishio/llm-wiki-about-nishio/raw/external_brain_in_markdown/pages/KJ法勉強会@ロフトワーク.md:12`；公開 Cosense の動画公開日（本人出演日は示さない）、`/Users/nishio/llm-wiki-about-nishio/raw/external_brain_in_markdown/pages/ゆるコンピュータ科学ラジオPolis回.md:7`）
+- 2026-11-07: Open Questionsの現状を更新 — 「**未踏ジュニア で何件メンターしたか**」を集約 Dot とするか、個別案件を Dot 化するか。実装では設立・継続メンター等を別の事実に分けている。件数集計や個別案件を全てDot化する判断まで済んだわけではない。（根拠: connecting_dots 9ffb167・2026-08-01、`/Users/nishio/connecting_dots/HANDOFF.md:59`）
+- 2026-11-07: Open Questionsの現状を更新 — 守秘契約等で bio に出せない案件がある場合、本ファイルに status: confidential のような区別を追加するか。移行先ではstatusフィールドを持たない設計と決定。これは公開不可案件の扱いや公開適否を自動解決しない。（根拠: c3f3b1d、2026-10-07 Updates、`wiki/dots/dots-candidate-2026.md:706`；2026-07-31 decision LOG（05ec541 に収録）、`/Users/nishio/connecting-dot-design/wiki/log.md:100`）
+- 2026-11-07: 解決済みとしてOpen Questionsから除外 — Dot ID 体系（カテゴリ番号 + 連番）を続けるか、Scrapbox の page ID 的なハッシュにするか。実装のIDはカテゴリ連番でもハッシュでもなく日付とslugの組合せ。現行規約の確認であり、将来変更を禁止する判断ではない。（根拠: connecting_dots c7ee186（2026-08-01）以降のスキーマ、`/Users/nishio/connecting_dots/HANDOFF.md:41`）

@@ -75,4 +75,12 @@ nishio自作のデジタル文房具。"a digital stationary to organize your th
 
 ## Open Questions
 
-詳細サーベイの Open Questions は [[../../sources/Kozaneba-search.md|Kozaneba-search]] 参照。
+詳細サーベイの Open Questions は [[../../sources/Kozaneba-search.md|Kozaneba-search]] 参照。 2026-11-07の現状照合による解決・前提変更は、参照先を上書きせず本ページの Updates に追記した。
+
+- 「Kozanebaの次の進む方向についてわかると良い」の意思決定保留はいつから続いているか
+
+## Updates
+
+- 2026-11-07: 参照先のOpen Questionsの現状を補足 — 参照先 `sources/Kozaneba-search.md` の「2025年の pKozaneba 急増は何が引き金か（外的要求？個人的再注力？）」。2025-08のCanvas実験には広聴AIのデータ配置との接続が原文にある。2025年全体の増加を一つの原因で説明する証拠ではない。（根拠: 公開 Cosense の原記録（2025-08-26〜27）、`/Users/nishio/kozaneba-dev-ai/raw/scrapbox_kozaneba/2025-08-26__pKozaneba2025-08-26~27.md:28`；kozaneba-dev-ai 2026-05-19 git履歴調査のLOG、`/Users/nishio/kozaneba-dev-ai/wiki/log.md:227`）
+- 2026-11-07: 参照先のOpen Questionsの現状を更新 — 参照先 `sources/Kozaneba-search.md` の「「Kozanebaの次の進む方向についてわかると良い」の意思決定保留はいつから続いているか」。元メモの作成日は2021-09-01、2026-05-16のLOGにはPlan BとPlan Aの並行方針が記録されている。Codex の検証（2026-11-07）で「閉じる」から戻した: 作成日は保留が連続している期間を示さず、2021年の機能選択と2026年の改造・新規並行方針は同じ問いとは確認できない。後続の2026-06の追記にはPlan Aの判断は引き続き保留とある。（根拠: 6f80d87・2026-09-30 23:59 LOG、`log.md:332`；`/Users/nishio/kozaneba-dev-ai/raw/scrapbox_kozaneba/2021-09-01__Kozanebaの次の進む方向についてわかると良い.md:3`；2026-05-16 LOG、`/Users/nishio/kozaneba-dev-ai/wiki/log.md:212`；`/Users/nishio/kozaneba-dev-ai/wiki/themes/3plan議論.md:145`）
+- 2026-11-07: 参照先のOpen Questionsの現状を補足 — 参照先 `sources/Kozaneba-search.md` の「Kozaneba と ConnectingDots は同じツール系譜の別ブランドか、別物か」。同じ別ブランドと断定する根拠はなく、ConnectingDotsには独立した実装がある。接続が未着手であることまで更新する。（根拠: connecting_dots 579bd66（2026-08-01）、`/Users/nishio/connecting_dots/HANDOFF.md:9`・`/Users/nishio/connecting_dots/HANDOFF.md:84`；29aa9ca・2026-10-07 の実装照合記録、`/Users/nishio/connecting-dot-design/wiki/open-questions.md:234`）
