@@ -269,7 +269,7 @@ status の意味:
 ### D204 word2vec による自然言語処理
 - **date**: 2014-05
 - **refs**: raw/external_brain_in_markdown/pages/自己紹介.md
-- **entities**: word2vec, 技術評論社
+- **entities**: word2vec, O'Reilly Japan
 - **tags**: 著書, 2014, 機械学習
 - **status**: confirmed
 - **summary**: word2vec 黎明期の解説書。本人の機械学習層活動の代表作。
@@ -662,12 +662,13 @@ status の意味:
 
 ## 統計
 
-- 合計: 47 Dot
+- 合計: 63 Dot（登録見出し数。本人非関与として除外済みの D103 を含み、D103 を除くと 62 件）
 - status 別:
-  - confirmed: 33
-  - ongoing: 8
+  - confirmed: 39
+  - ongoing: 10
   - in-progress: 5
-  - needs-date: 9（重複あり）
+  - needs-date: 8
+  - excluded: 1
 - カテゴリ別:
   - 役職: 6 (D001-D006)
   - ブロードリスニング案件: 13 (D101-D113)
@@ -702,6 +703,10 @@ status の意味:
 - 以後のDot管理は `connecting_dots` へ移り、候補と受理は置き場で分け、`status` フィールドを持たない設計になった。この履歴用候補一覧と移行先で、公開できない案件をどこに置き、どの範囲を公開するかは別途確認が必要。
 
 ## Updates
+
+- 2026-11-07: 統計の合計 47 件を登録見出し 63 件に訂正し、status 内訳を再集計した（confirmed 39 / ongoing 10 / in-progress 5 / needs-date 8 / excluded 1）。初版から ID は 63 件で重複はなく、D103 の除外後は 62 件。移行先の 97 Dot とは別の集計である（根拠: 初版 commit c7a115f の D001〜D806 とカテゴリ別集計、監査開始時 f7cf0cb の各 status）。
+- 2026-11-07: D104 の参照先メモの日付は 2024-11-14、世論地図のリリース日は 2024-10-18。本文の date は何の時点を表すか明記されていないため、2024-11 をリリース日の誤記とは確定せず、両者を分けて記録する（根拠: 公開本人原文 `/Users/nishio/llm-wiki-about-nishio/raw/external_brain_in_markdown/pages/2024-11-14-世論地図のUMAP.md:2`；2026-07-28 本人確認の LOG、`log.md:311`；entrypoint b94ab4d、`/Users/nishio/entrypoint/docs/broadlistening/ja.html:60`；`/Users/nishio/connecting_dots/dots.json:1525`）。
+- 2026-11-07: D204『word2vecによる自然言語処理』の出版社を技術評論社から O'Reilly Japan に訂正（根拠: 公開本人原文 `/Users/nishio/llm-wiki-about-nishio/raw/external_brain_in_markdown/pages/word2vecによる自然言語処理.md:6`；entrypoint b3228ff7、`/Users/nishio/entrypoint/docs/history-ja.html:73`；`/Users/nishio/connecting_dots/dots.json:869`）。
 
 ### 2026-10-07 lint: 本移行先は connecting_dots
 

@@ -357,3 +357,7 @@ nhiro.org が GitHub Pages + HTTPS で全面復旧（Story 3本・デザイン�
 ## [2026-11-07 19:45] filing-back | Open Questions 103 項目の現状突合（Codex gpt-6.1-sol、閉じる 10・現状更新 27・継続 61・人の判断待ち 5）
 
 - grasp-nishio のセッションから、Codex に `## Open Questions` の各項目を一次ソース（git blame・Updates・参照先の repo）で突合させ、別の Codex セッションが全 37 判定を敵対的に検証した（閉じる 4 件を現状更新に戻し、指し先 3 件を直した）。16 ページ。報告は grasp-nishio 側の scratchpad に保管
+
+## [2026-11-07 20:30] file back | ページをまたいだ食い違いの監査（Codex gpt-6.1-sol、本物 8・古い方が残っている 4・判定できない 5）
+
+- grasp-nishio のセッションから、Codex にページ間の矛盾（数値・日付・決定・名前・状態）を探させ一次ソースでどちらが現状かを確かめさせ、別の Codex セッションが全件を敵対的に検証した。報告は grasp-nishio の scratchpad

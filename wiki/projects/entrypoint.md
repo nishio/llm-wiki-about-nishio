@@ -48,6 +48,8 @@ Story の書式: 定義 → なぜ取り組むか（本人の解釈フレーム�
 
 ## Updates
 
+- 2026-11-07: 運用規約の「repo root の TODO.md 等は非公開」は Pages の配信対象外という意味に限定する。public repo で追跡している TODO.md / CLAUDE.md は repo から閲覧可能であり、非公開情報は別の private repo に置く方針（根拠: entrypoint 51a5809「no longer served by GitHub Pages」；同 repo の `git ls-files TODO.md CLAUDE.md`；`/Users/nishio/entrypoint/CLAUDE.md:14`・`:27`）。
+
 ### 2026-10-07 lint（entrypoint の git log と TODO.md で確認）
 
 - Story は 3 本から 5 本に増えた: 2026-08-01 に `mentoring/`・`highdim/` を追加。6 本目「Visual Thinking」は保留（TODO.md）
